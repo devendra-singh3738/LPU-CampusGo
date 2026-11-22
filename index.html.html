@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusGo | LPU Navigator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">
+            <span>📍</span> CampusGo
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#explore">Explore</a>
+            <a href="#accessibility">Accessibility</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <button class="nav-btn">Get Started</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <span class="tag">LOVELY PROFESSIONAL UNIVERSITY</span>
+
+            <h1>
+                Explore Your Campus.
+                <span>Find Your Way.</span>
+            </h1>
+
+            <p>
+                Navigate LPU campus easily with CampusGo.
+                Find classrooms, libraries, hostels and other
+                important locations without confusion.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#explore" class="primary-btn">
+                    Explore Campus →
+                </a>
+
+                <a href="#accessibility" class="secondary-btn">
+                    Accessibility
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <div class="map-icon">🗺️</div>
+            <h2>Campus Navigation</h2>
+            <p>Your campus journey starts here.</p>
+
+            <div class="location">
+                📍 Library
+            </div>
+
+            <div class="location">
+                🏫 Academic Blocks
+            </div>
+
+            <div class="location">
+                🏠 Hostels
+            </div>
+
+            <div class="location">
+                🍽️ Food Court
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Explore Section -->
+    <section class="explore" id="explore">
+        <h2>Explore Campus Locations</h2>
+        <p>Find important places around LPU campus.</p>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search campus location..."
+            >
+            <button onclick="searchLocation()">Search</button>
+        </div>
+
+        <div class="location-grid" id="locationGrid">
+
+            <div class="place-card">
+                <span>📚</span>
+                <h3>Library</h3>
+                <p>Study and learning resources.</p>
+            </div>
+
+            <div class="place-card">
+                <span>🏫</span>
+                <h3>Academic Blocks</h3>
+                <p>Find your classrooms and labs.</p>
+            </div>
+
+            <div class="place-card">
+                <span>🏠</span>
+                <h3>Hostels</h3>
+                <p>Find hostel locations.</p>
+            </div>
+
+            <div class="place-card">
+                <span>🍽️</span>
+                <h3>Food Court</h3>
+                <p>Find food and refreshment areas.</p>
+            </div>
+
+            <div class="place-card">
+                <span>🏢</span>
+                <h3>Unipolis</h3>
+                <p>Explore the campus activity area.</p>
+            </div>
+
+            <div class="place-card">
+                <span>🚪</span>
+                <h3>Gate 1</h3>
+                <p>Find the campus entrance.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Accessibility Section -->
+    <section class="accessibility" id="accessibility">
+        <h2>Campus Accessibility</h2>
+
+        <p>
+            Campus navigation should be easy and comfortable
+            for every student.
+        </p>
+
+        <div class="access-grid">
+            <div class="access-card">
+                <span>♿</span>
+                <h3>Accessible Routes</h3>
+                <p>Information about wheelchair-friendly routes.</p>
+            </div>
+
+            <div class="access-card">
+                <span>🛗</span>
+                <h3>Lift Information</h3>
+                <p>Find lift access information.</p>
+            </div>
+
+            <div class="access-card">
+                <span>🚶</span>
+                <h3>Walking Routes</h3>
+                <p>Explore walking route information.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About CampusGo</h2>
+
+        <p>
+            CampusGo is a student-friendly campus navigation
+            and accessibility project designed to improve
+            the campus experience at Lovely Professional University.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2>CampusGo 📍</h2>
+        <p>Making Campus Navigation Easier for Everyone.</p>
+        <p>© 2026 CampusGo | LPU Student Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
